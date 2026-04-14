@@ -602,13 +602,12 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 /* =================================================================
    GALLERY                                                            */
 .gallery {
-  background: var(--navy-900);
+  background: var(--cream-50);
   padding: clamp(80px, 10vw, 130px) 0;
-  color: #fff;
+  color: var(--ink-900);
 }
-.gallery .section-title { color: #fff; }
-.gallery .section-title .accent { color: var(--bronze-400); }
-.gallery .section-lead { color: rgba(255,255,255,0.72); }
+.gallery .section-title .accent { color: var(--bronze-600); }
+.gallery .section-lead { color: var(--ink-500); }
 
 .gallery__grid {
   margin-top: 2.5rem;
